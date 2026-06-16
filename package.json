@@ -5,7 +5,8 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "test": "jest"
   },
   "dependencies": {
     "@dev-laoz/core": "file:../dev-laoz-config-loader",
@@ -15,5 +16,9 @@
     "express-validator": "^7.2.1",
     "helmet": "^8.1.0",
     "mongoose": "^8.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
